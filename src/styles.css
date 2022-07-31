@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.inp {
+  display: fley;
+  flex-direction: row;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  background: #ddd;
+  padding: 0.5em;
+  justify-content: space-evenly;
+}
+
+table {
+  margin: 2em auto;
+}
+td {
+  text-align: right;
+  padding: 0.1em 1em;
+}
