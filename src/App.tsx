@@ -72,9 +72,10 @@ export default function App() {
     <div className="App">
       <div className="form">
         <div className="inp">
-          <div aria-labelledby="wdh"> Wiederholungen </div>
+          <div id="wdh-label"> Wiederholungen </div>
           <input
             id="wdh"
+            aria-labelledby="wdh-label"
             name="Wiederholungen"
             value={cost}
             onChange={(e) => setCost(parseInt(e.target.value, 10))}
