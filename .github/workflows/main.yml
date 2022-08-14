@@ -42,3 +42,13 @@ jobs:
       
       - name: Build
         run: npm run build
+        
+      - name: Configure Pages
+        uses: actions/configure-pages@v1.1.0
+        
+      - name: Deploy GitHub Pages site
+        uses: actions/deploy-pages@v1.0.8
+        with:
+          # Name of the artifact to deploy
+          artifact_name: build/
+
