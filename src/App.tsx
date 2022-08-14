@@ -70,6 +70,7 @@ export default function App() {
 
   return (
     <div className="App">
+      <h1>Algebraische Kombinationen</h1>
       <div className="form">
         <div className="inp">
           <div id="wdh-label"> Wiederholungen </div>

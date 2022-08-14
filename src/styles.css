@@ -4,13 +4,14 @@
 }
 
 .inp {
-  display: fley;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
 }
 .form {
   display: flex;
   flex-direction: row;
-  gap: 2em;
+  flex-wrap: wrap;
+  gap: 1em;
   background: #ddd;
   padding: 0.5em;
   justify-content: space-evenly;
